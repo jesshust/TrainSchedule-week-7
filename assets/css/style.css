@@ -1,0 +1,27 @@
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-image: url(../images/trainbackground.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.jumbotron {
+	background: rgb(105, 105, 105);
+	background: rgba(105, 105, 105, .5);	
+	color: #fff;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.panel-default>.panel-heading {
+	color: #fff;
+    background-color: #758FB2;
+    border-color: #f9ec8c;
+}
+
+.panel-default {
+    border-color: #f9ec8c;
+}
