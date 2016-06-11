@@ -10,10 +10,9 @@ body {
 }
 
 .jumbotron {
-	background: rgb(105, 105, 105);
-	background: rgba(105, 105, 105, .5);
-	border-color: #fff;	
-	color: #fff;
+	border-color: #495258;	
+	color: ##495258;
+	background-color: #fff; 
 }
 
 .panel-default>.panel-heading {
