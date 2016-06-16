@@ -43,10 +43,6 @@
 
 	dataRef.on("child_added", function(snapshot) {
 
-	// 		if(!moment(snapshot.val().firstTrainTime, "HH:mm").isValid()) {
-	// 			alert("The train on line " + (globalIndex + 1) + " is not valid");
-	// }
-
 			var firstTrainMoment = moment(snapshot.val().firstTrain, "hh:mm").subtract(1, "years");
 			var diffTime = moment().diff(moment(firstTrainMoment), "minutes");
 			var remainder = diffTime % snapshot.val().frequency;
